@@ -5,3 +5,6 @@ ssh-copy-id YOUR_IP
 ssh YOUR_IP
 exit
 yum install ansible
+
+
+#test
