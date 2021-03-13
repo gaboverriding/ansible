@@ -1,11 +1,11 @@
 [webservers]
-node-1 ansible_host=YOUR_IP
+node-1 ansible_host=localhost
 
 [dbservers]
-node-2 ansible_host=YOUR_IP
+node-2 ansible_host=localhost
 
 [logservers]
-node-3 ansible_host=YOUR_IP
+node-3 ansible_host=localhost
 
 [lamp:children]
 webservers
